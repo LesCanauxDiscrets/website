@@ -1,0 +1,119 @@
+
+body{
+	font-family: helvetica;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #ddd
+}
+
+.header{
+	background-color: #fff;
+	position: fixed;
+	height: 60px;
+	width: 100vw;
+	min-height: 60px;
+}
+
+.header h1{
+	position: fixed;
+	right: 10vw;
+	font-size: 4em;
+	font-weight: normal;
+	background-color: #fff;
+	z-index: 10;
+	margin: 0;
+	margin-top: 10px;
+}
+
+div.logo div{
+	width: 30px;
+	position: fixed;
+	background-color: rgb(157, 10, 21);
+}
+
+div.logo div:nth-child(1){
+	left: 15vw;
+}
+
+div.logo div:nth-child(2){
+	left: 35vw;
+}
+
+div.logo div:nth-child(3){
+	left: 55vw;
+}
+
+div.logo div:nth-child(4){
+	left: 75vw;
+}
+
+div.logo div:nth-child(5){
+	left: 85vw;
+	background-color: rgb(20, 20, 20);
+	min-height: 60px;
+}
+
+#fakecontent{
+	height: 100vh;
+}
+
+#services{
+	padding-top: 100px;
+	background-color: rgb(20, 20, 20);
+	margin: 0;
+	color:#fff;
+	padding: 10px;
+}
+
+#services div{
+	width: 45%;
+	display: inline-block;
+	padding: 10px;
+}
+
+#services h2,
+#research h2{
+	text-align: center;
+	padding: 20px;
+}
+
+#services img{
+	max-width: 100px;
+	display: inline-block;
+}
+
+#research p{
+	width: 50%;
+	padding: 40px;
+}
+
+footer{
+	background-color: rgb(20, 20, 20);
+	min-height: 30px;
+	color: #fff;
+	padding: 30px;
+}
+
+footer div:nth-child(1){
+	width: 50vw;
+	display: inline-block;
+}
+
+footer img{
+	width: 200px;
+	vertical-align: middle;
+}
+
+footer p{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 20px;
+	font-size: 1.3em;
+}
+
+footer p a{
+	font-size: 0.75em;
+}
