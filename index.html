@@ -2,21 +2,26 @@
 <html>
 	<head>
 		<title>Les Canaux Discrets</title>
+		<link href="css/video-js.css" rel="stylesheet">
+		<script src="js/video.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 	</head>
 	<body>
 		<header>
-			<div class="header" data-0="height: 100vh;" data-100="height:0vh;">
+			<div class="header">
 				<h1 data-0="top: 65vh; font-size: 4em;" data-500="top:0vh; font-size: 2em;">les canaux discrets</h1>
 				<div class="logo">
-					<div data-0="top: 20vh; height: 100px;" data-500="top: 0px; height: 60px;"></div>
-					<div data-0="top: 30vh; height: 100px;" data-500="top: 0px; height: 60px;"></div>
-					<div data-0="top: 25vh; height: 100px;" data-500="top: 0px; height: 60px;"></div>
-					<div data-0="top: 15vh; height: 100px;" data-500="top: 0px; height: 60px;"></div>
 					<div
 						data-0="top: 20vh; height: 75vh;"
 						data-450="top: 0vh; height: 10vh;"
-						data-500="top: 0vh; height: 0vh;"></div>
+						data-500="top: 0vh; height: 0vh;"><a href="#services">services</a></div>
+					<div data-0="top: 15vh; height: 100px;" data-500="top: 0px; height: 60px;"><a href="#research">recherche</a></div>
+					<div data-0="top: 25vh; height: 100px;" data-500="top: 0px; height: 60px;"><a href="#contacts">contact</a></div>
+					<div data-0="top: 30vh; height: 100px;" data-500="top: 0px; height: 60px;"></div>
+					<div data-0="top: 20vh; height: 100px;" data-500="top: 0px; height: 60px;"></div>
+					<!--<div
+						data-0="height: 0vh;"
+						data-100="height: 70px;"></div>-->
 				</div>
 			</div>
 			
@@ -43,7 +48,7 @@
 		<div id="services">
 			<h2>Nos services</h2>
 			<div>
-				<img src="img/oreille-blancsurnoir.jpg" />
+				<img src="img/oreille-blancsurnoir.jpg" title="image sourd et malentendant"/>
 				<h3>Sous-titrage sourd et malentendant</h3>
 				<p>
 				Il s'agit d'un affichage de textes explicatifs (dialogues, situations...) plac&eacute;s au bas d'une image, dans un film (fiction, documentaires, spots). Soucieux de fournir le meilleur de nos comp&eacute;tences, c'est tout naturellement que nous suivons le protocoles des couleurs pour le sous titrage.
@@ -78,6 +83,17 @@
 				</p>
 			</div>
 		</div>
+		<div id="references">
+			<h2>Nos r&eacute;f&eacute;rences</h2>
+			<h3>Le petit Prince - Fondation Saint Exup&eacute;ry</h3>
+			<video id="example_video_1" class="video-js vjs-default-skin"
+					controls preload="auto" width="640" height="360"
+					poster="img/petit_prince_picture.png"
+					data-setup='{"example_option":true}'>
+				<source src="video/LE_PETIT_PRINCE_VO_AD_BMix_960p.mp4" type='video/mp4' />
+				<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+			</video>
+		</div>
 		<div id="research">
 			<h2>D&eacute;veloppement d'un syst&egrave;me de synchronisation fine</h2>
 			<p>
@@ -87,7 +103,7 @@
 			</p>
 		</div>
 		<footer>
-			<div>
+			<div id="contacts">
 				<img src="img/logo_canaux_discrets.png">
 				<p>
 					les canaux discrets<br/>

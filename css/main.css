@@ -15,6 +15,7 @@ a{
 	height: 60px;
 	width: 100vw;
 	min-height: 60px;
+	z-index: 100;
 }
 
 .header h1{
@@ -34,11 +35,11 @@ div.logo div{
 	background-color: rgb(157, 10, 21);
 }
 
-div.logo div:nth-child(1){
+div.logo div:nth-child(5){
 	left: 15vw;
 }
 
-div.logo div:nth-child(2){
+div.logo div:nth-child(4){
 	left: 35vw;
 }
 
@@ -46,14 +47,20 @@ div.logo div:nth-child(3){
 	left: 55vw;
 }
 
-div.logo div:nth-child(4){
+div.logo div:nth-child(2){
 	left: 75vw;
 }
 
-div.logo div:nth-child(5){
+div.logo div:nth-child(1){
 	left: 85vw;
 	background-color: rgb(20, 20, 20);
 	min-height: 60px;
+}
+
+div.logo div:nth-child(6){
+	background-color: rgb(20, 20, 20);
+	left: 0vw;
+	width: 100vw;
 }
 
 #fakecontent{
@@ -75,13 +82,34 @@ div.logo div:nth-child(5){
 }
 
 #services h2,
-#research h2{
+#research h2,
+#references h2{
 	text-align: center;
 	padding: 20px;
 }
 
 #services img{
 	max-width: 100px;
+	display: inline-block;
+}
+
+#references{
+	background-color: rgb(60, 60, 60);
+	color:#fff;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#references h2{
+	margin-top: 0px;
+}
+
+#references h3{
+	text-align: left;
+	padding-left: 20px;
+}
+
+#references .video-js{
 	display: inline-block;
 }
 
