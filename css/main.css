@@ -6,7 +6,7 @@ body{
 
 a{
 	text-decoration: none;
-	color: #ddd
+	color: rgb(20, 20, 20);
 }
 
 .header{
@@ -29,32 +29,45 @@ a{
 	margin-top: 10px;
 }
 
+.logo div a{
+	color: rgb(157, 10, 21);
+	opacity: 0.3;
+	padding-left: 33px;
+	padding-top: 5px;
+	width: 200px;
+	display: inline-block;
+}
+
+.logo div a:hover{
+	opacity: 1.0;
+}
+
 div.logo div{
 	width: 30px;
 	position: fixed;
 	background-color: rgb(157, 10, 21);
 }
 
-div.logo div:nth-child(5){
-	left: 15vw;
-}
-
-div.logo div:nth-child(4){
-	left: 35vw;
-}
-
-div.logo div:nth-child(3){
-	left: 55vw;
-}
-
-div.logo div:nth-child(2){
-	left: 75vw;
-}
-
 div.logo div:nth-child(1){
 	left: 85vw;
 	background-color: rgb(20, 20, 20);
 	min-height: 60px;
+}
+
+div.logo div:nth-child(2){
+	left: 15vw;
+}
+
+div.logo div:nth-child(3){
+	left: 35vw;
+}
+
+div.logo div:nth-child(4){
+	left: 55vw;
+}
+
+div.logo div:nth-child(5){
+	left: 75vw;
 }
 
 div.logo div:nth-child(6){
